@@ -1,0 +1,8 @@
+name: Resuable Workflow
+on: workflow_call
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploying build
+        run: echo "Deploying and using yml"
